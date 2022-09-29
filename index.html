@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="maincontainer">
+   
+    <div class="infoNotifications">
+      <div class="notifcation3">
+      <h1>Notifications</h1> <span class="number" id="upNumber">3</span>
+      </div>
+      <div class="messsage">
+      Mark all as read
+      </div>
+    </div>
+    <div class="notifications">
+
+      <div class="people box1 bg" id="box1">
+        <img src="assets/images/avatar-mark-webber.webp" alt="markwebber">
+        <div class="containt">
+       <p><span class="name">Mark Webber</span> <span class="midLine"> reacted to your recent post</span> <span class="lastLine">My first tournament today!</span> <span class="dot" id="redCircle1"></span></p>
+       <p><span class="time">1m ago</span><p>
+      </div>
+      </div>
+
+      <div class="people box2 bg" id="box2">
+        <img src="assets/images/avatar-angela-gray.webp" alt="angelagrey">
+        <div class="containt">
+       <p> <span class="name">Angela Gray</span> <span class="midLine">followed you</span> <span class="dot" id="redCircle2"></span></p>
+        <p><span class="time">5m ago</span></p>
+      </div>
+    
+      </div>
+
+      <div class="people box3 bg" id="box3">
+        <img src="assets/images/avatar-jacob-thompson.webp" alt="jacob">
+        <div class="containt">
+        <p><span class="name">Jacob Thompson</span> <span class="midLine">has joined your group</span> <span class="chessFontColor">Chess Club</span> <span class="dot" id="redCircle3"></span></p>
+        <p><span class="time">1 day ago</span></p>
+      </div>
+      
+      </div>
+
+      <div class="people box4">
+        <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="rizky">
+        <div class="containt">
+        <p><span class="name">Rizky Hasanuddin</span> <span class="midLine">sent you a private message</span></p>
+        <p><span class="time">5 days ago</span></p>
+      </div>
+      </div>
+      <div class="comment">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </div>
+
+      <div class="people box5">
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="kimberly">
+        <div class="containt">
+        <p><span class="name">Kimberly Smith</span><span class="midLine"> commented on your picture</span></p>
+        <p><span class="time">1 week ago<span></p>
+      </div>
+      </div>
+
+      <div class="people box6">
+        <img src="assets/images/avatar-nathan-peterson.webp" alt="nathna">
+        <div class="containt">
+        <p><span class="name">Nathan Peterson</span> <span class="midLine">reacted to your recent post</span><span class="lastLine"> 5 end-game strategies to increase your win rate</span></p>
+        <p><span class="time">2 weeks ago<span</p>
+      </div>
+      </div>
+
+      <div class="people box7">
+        <img src="assets/images/avatar-anna-kim.webp" alt="anakim">
+        <div class="containt">
+        <p><span class="name">Anna Kim</span><span class="midLine"> left the group </span><span class="chessFontColor">Chess Club</span></p>
+        <p><span class="time">2 weeks ago</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Coded by <a href="#">Fardeen khan</a>.
+  </div>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
